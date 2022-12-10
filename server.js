@@ -16,7 +16,7 @@ person.save((err)=>{
     err? console.log(err) : console.log(person)
 })
 }
-createPerson();
+//createPerson();
 
 //Create Many persons
 var array=[{name:"manel", age:30,favoriteFoods:["gateau","frite","fricasse"] },{name:"mohamed", age:25,favoriteFoods:["coffee","chapati"] },{name:"firas", age:23,favoriteFoods:["mlawi","jus"] }]
